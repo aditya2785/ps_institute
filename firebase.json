@@ -1,0 +1,23 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ps-institute-ab86c",
+          "appId": "1:152368321300:android:44384f961298deaffb6801",
+          "fileOutput": "android/app/google-services.json"
+        }
+      }
+    },
+    "dart": {
+      "lib/firebase_options.dart": {
+        "projectId": "ps-institute-ab86c",
+        "configurations": {
+          "android": "1:152368321300:android:44384f961298deaffb6801",
+          "web": "1:152368321300:web:34aafc9322c18448fb6801",
+          "windows": "1:152368321300:web:55b64a299f4d6167fb6801"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+name: ps_institute
+description: A teacher–student learning platform for assignments, notes & homework.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  shared_preferences: ^2.2.2
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  # Firebase
+  firebase_core: ^3.5.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.6.12
+  http: ^1.2.2
+
+  # Google Sign-In
+  google_sign_in: ^6.2.1
+
+  # File picker
+  file_picker: ^8.0.5
+
+  # PDF viewer
+  flutter_pdfview: ^1.3.6
+
+  # Image picker
+  image_picker: ^1.1.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Icons
+  flutter_svg: ^2.0.9
+
+  # Date formatting
+  intl: ^0.19.0
+
+  # URL Launcher
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  # Icon generator
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_logo.png"
+  adaptive_icon_foreground: "assets/images/app_logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  min_sdk_android: 21
